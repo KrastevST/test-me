@@ -12,7 +12,7 @@ it('should sum an array', () => {
     total += value
   })
 
-  assert.strictEqual(total, 7)
+  assert.strictEqual(total, 6)
   numbers.push(3)
   numbers.push(3)
   numbers.push(3)
@@ -20,5 +20,5 @@ it('should sum an array', () => {
 })
 
 it('beforeEach is ran every time', () => {
-  assert.strictEqual(numbers.length, 4)
+  assert.strictEqual(numbers.length, 3)
 })
